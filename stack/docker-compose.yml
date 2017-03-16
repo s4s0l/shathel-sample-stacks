@@ -1,0 +1,5 @@
+version: "3"
+services:
+  sample:
+    image: ianneub/network-tools
+    command: /bin/bash -c "until false; do echo "shathel-sample-stacks is alive and well!"; sleep 1; done"
